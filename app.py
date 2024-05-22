@@ -17,5 +17,10 @@ def about():
 def contacts():
     return render_template('contacts.html')
 
+@app.route('/reg')
+def reg():
+    return render_template('reg.html')
+
+
 
 app.run(debug=True)
